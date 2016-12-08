@@ -2,6 +2,7 @@
 Author: © - Anna Drevikovska | 2016-21-11 | ver. 1.0.0
 Adding class .scrolled (background) to .navbar when it's collapsed and removing class .scrolled (background) when it's not or is closing.
 For mobile media query
+Showing and hiding .logo image on scroll
 ---------------------------------------------*/
 
 var counter = 0;

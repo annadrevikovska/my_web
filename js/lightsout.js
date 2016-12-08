@@ -1,3 +1,9 @@
+/*-------------------------------------------- 
+Author: © - Anna Drevikovska | 2016-03-12 | ver. 1.0.0
+Changing image overlay on click handler with .lights-out class
+Changing on click handler color property of h1 in header and its :hover color property 
+---------------------------------------------*/
+
 var counter = 0;
 
 $('.logo').click(function() {
