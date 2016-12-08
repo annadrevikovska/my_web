@@ -1,0 +1,716 @@
+/* Custom CSS on top of Bootstrap Framework */
+
+/* Author: © - Anna Drevikovska | 2016-01-12 */
+
+/*-------------------------------------------
+	MOBILE SMALL - MEDIUM VERSION:
+-------------------------------------------*/
+
+/*-------------------------------------------
+		ELEMENTARY ATTRIBUTES:
+-------------------------------------------*/
+
+body {
+	background-image: url('../img/wall-min.jpg');
+	background-attachment: scroll;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	background-size: cover;
+	height: 447px; /* 495px * height with portfolio link item */
+	background-repeat: no-repeat;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+/*-------------------------------------------
+	HEADER:
+-------------------------------------------*/
+
+.header {
+	/*background-color: #4a4a4a;*/
+	color: #fefef8;
+	border-bottom: 5px solid #674441;
+	background-color: rgba(36, 47, 57, 0.3);
+	padding-bottom: 2rem;
+	padding-left: 1.5rem;
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.header h1 {
+	font-size: 2.8em;
+ 	text-shadow: 1px 0 0 #ccc,
+	             2px 0 0 #c9c9c9,
+	             3px 0 0 #bbb,
+	             4px 0 0 #b9b9b9,
+	             5px 0 0 #aaa,
+	             6px 0 1px rgba(0,0,0,.1),
+	             0 0 5px rgba(0,0,0,.1),
+	             1px 0 3px rgba(0,0,0,.3),
+	             3px 0 5px rgba(0,0,0,.2),
+	             5px 0 10px rgba(0,0,0,.25),
+	             10px 0 10px rgba(0,0,0,.2),
+	             20px 0 20px rgba(0,0,0,.15);
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.header a i {
+	display: none;
+}
+
+.name {
+	color: #e3e3e3;
+}
+
+.lead {
+	font-size: 1.2em;
+	line-height: 26px;
+	font-weight: 600;
+	color: #e3e3e3;
+}
+
+/*-------------------------------------------
+	HEADER - PSEUDO-CLASSES:
+-------------------------------------------*/
+
+.name:hover {
+	color: #de8505;
+	text-decoration: none;
+}
+
+/*-------------------------------------------
+	NAVIGATION - MOBILE:
+-------------------------------------------*/
+.nav {
+	padding-top: 1rem;
+}
+
+.navbar-toggler {
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-size: 0;
+}
+
+.navbar-light .navbar-toggler .fa-bars {
+	color: #e3e3e3;
+	font-size: 1.5em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #e3e3e3;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: bold;
+	letter-spacing: 1.71px;
+	padding: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	text-shadow: 5px 5px 10px #222;
+	font-weight: 600;
+}
+
+#navbarResponsive {
+	padding: 0;
+}
+
+#navigation {
+	position: absolute;
+	right: 0;
+	left: 0;
+}
+
+.logo {
+	height: 134px;
+	width: 115px;
+	display: block;
+	margin: 0 auto;
+	opacity: 0.98;
+	padding-top: 0; /* padding-top: 25px; with portfolio item */
+}
+
+/*-------------------------------------------
+	MAIN - CONTENT - SECTION:
+-------------------------------------------*/
+
+.content {
+	margin: 302px auto 0; /* 350px with portfolio link */
+	width: 90%;
+}
+
+.welcome {
+	text-align: justify;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	margin-bottom: 90px;
+}
+
+/*-------------------------------------------
+	FIXED SECTION:
+-------------------------------------------*/
+
+.fixed {
+	display: block;
+	height: 480px;
+	padding: 30px 0;
+	margin: 0 auto;
+	background-image: url('../img/fiat500-min1.jpg');
+	position: relative;
+	background-size: 190% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/*-------------------------------------------
+	PORTFOLIO SECTION:
+-------------------------------------------*/
+/*
+.portfolio {
+	display: block;
+	height: 600px;
+	padding-top: 200px;
+	padding-bottom: 400px;
+	margin: 0 auto;
+}
+
+.webpage {
+	margin: 0 20px;
+	padding: 0;
+    border: solid 1px #eee;
+    border-width: 0px 1px 2px 1px;
+    border-radius: 5px;
+}
+
+.article {
+	padding: 26px 30px;
+}
+
+.article .date {
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #ccc;
+}
+
+.article .title {
+	font-weight: bold;
+}
+
+.row-centered {
+	text-align: center;
+}
+
+.portfolio .row a {
+	color: #4a4a4a;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    margin-right: -4px;
+}
+
+.col-max {
+	max-width: 320px;
+}
+
+.featured-image {
+	background-color: #fc9424;
+	height: 125px;
+	border-radius: 5px 5px 0 0;
+	position: relative;
+	margin: 0;
+	background-size: cover;
+	background-position-x: 50%;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	max-width: 100%;
+} For future references of work */
+
+/*-------------------------------------------
+	PORTFOLIO SECTION - PSEUDO CLASSES:
+-------------------------------------------*/
+/*
+.article .title:hover {
+	color: #de8505;
+}
+
+.featured-image:hover {
+	filter: grayscale(50%) contrast(110%) brightness(110%);
+} For future references of work */
+
+/*-------------------------------------------
+	CONTACT SECTION:
+-------------------------------------------*/
+
+.footer {
+	background: #555;
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+.footer .contact-info {
+	padding: 0;
+	width: 100%;
+	margin: 0 auto 20px;
+}
+
+.footer .contact-info img {
+	height: 100px;
+	width: 100px;
+}
+
+.footer .contact-info .email {
+	font-size: 1em;
+	color: #fff;
+	font-weight: 600;
+}
+
+.footer .contact-social {
+	border-top: 2px solid #fff;
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.footer .contact-social ul {
+	padding: 0;
+	margin: 0;
+}
+
+.footer .contact-social li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.footer .contact-social li a {
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.footer .contact-social li a:hover {
+	color: #de8505;
+}
+
+.footer .contact-social p {
+	color: #fff;
+	word-spacing: 1px;
+	font-size: 0.8em;
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+
+/*-------------------------------------------
+	CLEAR SECTION:
+-------------------------------------------*/
+
+.sections {
+	overflow: hidden;
+}
+
+.sections:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+/*-------------------------------------------
+	NAVIGATION - MOBILE - PSEUDO-CLASSES:
+-------------------------------------------*/
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+	color: #de8505;
+}
+
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.active:focus, 
+.navbar-light .navbar-nav .nav-link.active:hover {
+	color: #de8505;
+}
+
+nav button:focus {
+	outline: none;
+}
+
+.logo:hover {
+	filter: grayscale(50%) contrast(110%) brightness(110%);
+}
+
+/*-------------------------------------------
+	NAVIGATION - MOBILE - SCROLLED:
+-------------------------------------------*/
+
+.scrolled {
+	background-color: rgba(36, 47, 57, 0.3);
+	border: none;
+	border-radius: 0;
+	padding-bottom: 14px;
+}
+
+/*-------------------------------------------
+	MOBILE LARGE VERSION:
+-------------------------------------------*/
+
+@media (min-width: 400px) {
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.header {
+		padding-left: 3rem;
+	}
+
+	.header h1 {
+		font-size: 3.2em;
+	}
+
+	/*-------------------------------------------
+		NAVIGATION - MOBILE:
+	-------------------------------------------*/
+
+	.logo {
+		height: 134px;
+		width: 115px;
+		padding-top: 0;
+	}
+
+	/*-------------------------------------------
+		MAIN - CONTENT - SECTION:
+	-------------------------------------------*/
+
+	.content {
+		margin: 302px auto 0; /* 350px with portfolio link */
+	}
+
+	.welcome {
+		font-size: 0.85em;
+	}
+
+	/*-------------------------------------------
+		NAVIGATION - MOBILE - SCROLLED:
+	-------------------------------------------*/
+
+	.scrolled {
+		padding-bottom: 0;
+	}
+
+}
+
+/*-------------------------------------------
+	LARGE PHONE VERSION:
+-------------------------------------------*/
+
+@media (min-width: 471px) {
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.logo {
+		height: 134px;
+		width: 115px;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 576px) {
+
+	/*-------------------------------------------
+		ELEMENTARY ATTRIBUTES - HEADER:
+	-------------------------------------------*/
+
+	body {
+		height: 737px;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+
+	.header {
+		padding-top: 2rem;
+		padding-bottom: 4.5rem;
+		font-size: 1.5rem;
+	}
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 3em;
+	}
+
+	.navbar-light .navbar-toggler .fa-bars {
+		font-size: 2em;
+	}
+
+	.logo {
+		height: 234px;
+		width: 215px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	/*-------------------------------------------
+		MAIN - CONTENT - SECTION:
+	-------------------------------------------*/
+
+	.content {
+		margin: 420px auto 0;
+	}
+}
+
+@media (min-width: 650px) {
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.logo {
+		height: 234px;
+		width: 215px;
+		display: block;
+		margin: 0 auto;
+	}
+
+	/*.logo-new {
+		max-width: 30%;
+		max-height: 30%;
+		display: block;
+		margin: 0 auto;
+	}*/
+
+}
+
+/*-------------------------------------------
+	TABLET VERSION:
+-------------------------------------------*/
+
+@media (min-width: 768px) {
+
+	/*-------------------------------------------
+		ELEMENTARY ATTRIBUTES - PSEUDO CLASSES:
+	-------------------------------------------*/
+
+	i[class^="icon-"]:before {
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	/*-------------------------------------------
+		HEADER:
+	-------------------------------------------*/
+	.header {
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		background-image: url('../img/wall-min.jpg');
+		background-attachment: scroll;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		border: none;
+		height: 1050px;
+	}
+
+	.header br {
+		display: none;
+	}
+
+	.header h1 {
+		font-size: 4.5em;
+	}
+
+	.header a i {
+		display: inline-block;
+		font-size: 6em;
+		color: #e3e3e3;
+	}
+
+	.lead {
+		font-size: 2em;
+		display: block;
+	}
+
+	.logo {
+		height: 514px;
+		width: 495px;
+		display: block;
+		margin: 60px auto 0;
+	}
+
+	/*-------------------------------------------
+		HEADER - PSEUDO CLASSES:
+	-------------------------------------------*/
+
+	.header i:hover {
+		color: #de8505;
+		text-decoration: none;
+	}
+
+	/*-------------------------------------------
+		HEADER - JQUERY CLASSES:
+	-------------------------------------------*/
+
+	.new-name {
+		color: #de8505;
+	}
+
+	.lights-out {
+		background: linear-gradient(
+				    rgba(0, 0, 0, 0.75), 
+				    rgba(0, 0, 0, 0.75)), 
+					url('../img/wall-min.jpg') no-repeat center center scroll;
+		background-size: cover;
+	}
+
+	/*.logo-new {
+		max-width: 55%;
+		max-height: 55%;
+		display: block;
+		margin: 40px auto 0;
+	}*/
+
+	/*-------------------------------------------
+		HEADER - JQUERY CLASSES - PSEUDO CLASSES:
+	-------------------------------------------*/
+
+	.new-name:hover {
+		color: #e3e3e3;
+		text-decoration: none;
+	}
+
+	/*-------------------------------------------
+		MAIN - CONTENT - SECTION:
+	-------------------------------------------*/
+
+	.content {
+		margin: 0 auto;
+		padding-top: 90px;
+	}
+
+	.welcome {
+		font-size: 1.25em;
+	}
+
+	/*-------------------------------------------
+		FIXED SECTION:
+	-------------------------------------------*/
+
+	.fixed {
+		background-size: cover;
+	}
+
+	/*-------------------------------------------
+		PORTFOLIO SECTION:
+	-------------------------------------------*/
+
+	/*-------------------------------------------
+		CONTACT SECTION:
+	-------------------------------------------*/
+
+	.footer {
+		padding-top: 90px;
+	}
+
+	.footer .contact-info {
+		padding-top: 110px;
+	}
+
+	.footer .contact-info img {
+		height: 300px;
+		width: 300px;
+	}
+
+	.footer .contact-info .email {
+		font-size: 1.5em;
+	}
+
+	.footer .contact-social li a {
+		font-size: 3em;
+	}
+
+	.footer .contact-social p {
+		font-size: 1.2em;
+	}
+
+	/*-------------------------------------------
+		ELEMENTARY ATTRIBUTES - NAVIGATION:
+	-------------------------------------------*/
+
+	body {
+		background: none;
+		padding-top: 54px;
+		position: relative;
+	}
+
+	/*-------------------------------------------
+		NAVIGATION:
+	-------------------------------------------*/
+
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 1em;
+		color: #4a4a4a;
+		text-align: left;
+		top: auto;
+		transform: none;
+		text-shadow: none;
+		margin-right: 15px;
+	}
+
+	.nav {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.97);
+		z-index: 1030;
+		padding: 15px;
+		padding-left: 40px;
+		border: 1px solid #e7e7e7;
+		margin-bottom: 20px;
+	}
+
+	/*-------------------------------------------
+	NAVIGATION - TABLET, DESKTOP, LARGE DESKTOP - SCROLLED:
+	-------------------------------------------*/
+
+	.scrolled {
+		background: none;
+		padding: 0;
+	}
+}
+
+@media (min-width: 975px) {
+	.logo {
+		height: 614px;
+		width: 595px;
+		display: block;
+		margin: 60px auto 0;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.header {
+		height: 980px;
+	}
+
+	.logo {
+		height: 560px;
+		width: 541px;
+		display: block;
+		margin: 60px auto 0;
+	}
+}
